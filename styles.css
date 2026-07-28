@@ -175,10 +175,10 @@ section{
 }
 
 .skill-tag.center-row {
-    flex-basis: 100%;
-    width: max-content;
-    margin: 0 auto;
-    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .projects-grid{
@@ -210,6 +210,10 @@ section{
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
+}
+
+.contact-links{
+    margin-bottom: 2rem;
 }
 
 footer{
