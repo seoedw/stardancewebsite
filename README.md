@@ -1,2 +1,2 @@
 # stardancewebsite
-the code and everything else is in the codespaces branch
+This is just my personal website for stardance
