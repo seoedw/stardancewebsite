@@ -5,7 +5,7 @@ Hi, I'm Edward and welcome to my website. I'm a member of Hack Club.
 
 I learned HTML and CSS using youtube and W3 schools, which helped a lot.
 
-My website has 4 sections
+#My website has 4 sections:
 
 ## > About:
 This section focuses on some small facts about me, like my hobbies
