@@ -234,3 +234,7 @@ footer{
         text-align: center;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
