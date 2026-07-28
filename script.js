@@ -1,5 +1,5 @@
-const themeToggleBtn = document.getElementById('theme0toggle');
-const themeIcon = themeToggleBtn.queryselector('i');
+const themeToggleBtn = document.getElementById('theme-toggle');
+const themeIcon = themeToggleBtn.querySelector('i');
 const rootElement = document.documentElement;
 
 const savedTheme = localStorage.getItem('theme') || 'dark';
@@ -13,14 +13,13 @@ themeToggleBtn.addEventListener('click', () => {
     rootElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
     updateIcon(newTheme);
-})
+});
 
 function updateIcon(theme) {
     if (theme === 'dark') {
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun');
-    }
-    else {
+    } else {
         themeIcon.classList.remove('fa-sun');
         themeIcon.classList.add('fa-moon');
     }
@@ -29,31 +28,31 @@ function updateIcon(theme) {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
 
-            if(targetElement) {
-                targetElement.scrollIntoView ({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
+        if(targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
     });
 });
 
-const textToType = "Hardware guy learning to code."
+const textToType = "Hardware guy learning to code.";
 const typeWriterElement = document.getElementById('typewriter');
 let index = 0;
 
-function typerWriter() {
+function typeWriter() {
     if (index === 0) {
         typeWriterElement.innerHTML = "";
     }
     if (index < textToType.length) {
-        typerWriterElement.innerHTML += textToType.charAt(index);
+        typeWriterElement.innerHTML += textToType.charAt(index);
         index++;
-        setTimeout(typeWriterElement, 100);
+        setTimeout(typeWriter, 100);
     }
 }
 
-setTimeout(typerWriter, 1000);
+setTimeout(typeWriter, 1000);
