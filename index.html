@@ -1,22 +1,23 @@
 <!DOCTYPE html> 
 <html lang="en">
 <head>
-    <meta charset= "UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Website</title>
-
+    <title>Edward's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <nav>
         <div class="logo">Stardance</div>
-        <div class="nav-links">
+        <div class="navlinks">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <button id="theme-toggle" aria-label="(dark mode)">
-                <i class="fas fa-moon"
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
             </button>
         </div>
     </nav>
@@ -46,7 +47,7 @@
                 <div class="skill-tag"><i class="fa-brands fa-js"></i> Basic JavaScript</div>
                 <div class="skill-tag"><i class="fa-brands fa-python"></i> Python</div>
                 <div class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git / Github</div>
-                <div class="skill-tag"><i class="fa-brands fa-screwdriver-wrench"></i> Building</div>
+                <div class="skill-tag"><i class="fa-solid fa-screwdriver-wrench"></i> Building</div>
                 <div class="skill-tag"><i class="fa-solid fa-microchip"></i> ESP32 and Arduino</div>
             </div>
         </section>
@@ -59,23 +60,28 @@
                     <p>IDK</p>
                     <div class="skill-tag" style="width: fit-content; font-size: 0.8rem; padding: 0.2rem 0.6rem;">HTML • CSS • JS</div>
                     <div class="project-links">
-                        <a href="#"><i class="fa-brands fa-github"></i>Source</a>
-                        <a href="#"><i class="fa-solid fa-external-link-alt"></i>Live Demo</a>
+                        <a href="#"><i class="fa-brands fa-github"></i> Source</a>
+                        <a href="#"><i class="fa-solid fa-external-link-alt"></i> Live Demo</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="contact">
-            <h2 class=""section-title">Get in Touch</h2>
-            <p style="max-width: 600px; color: var(--text-muted); margin-bottom: 2 rem;">
+            <h2 class="section-title">Get in Touch</h2>
+            <p style="max-width: 600px; color: var(--text-muted); margin-bottom: 2rem;">
                 My inbox is always open. Feel free to email me if you have any questions or feedback.
             </p>
             <div class="contact-links">
-                <a hred="mailto:seoedw2@gmail.com" class="btn"><i class="fa-solid fa-envelope"></i>Gmail</a>
+                <a href="mailto:seoedw2@gmail.com" class="btn"><i class="fa-solid fa-envelope"></i> Gmail</a>
             </div>
         </section>
     </main>
-    
-</head>
+
+    <footer>
+        <p>© 2026 Edward. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
