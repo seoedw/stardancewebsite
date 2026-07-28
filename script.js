@@ -56,3 +56,20 @@ function typeWriter() {
 }
 
 setTimeout(typeWriter, 1000);
+
+function openContact(platform, username) {
+    document.getElementById('modal-title').textContent = platform;
+    document.getElementById('modal-username').textContent = username;
+    document.getElementById('contact-modal').classList.add('active');
+}
+
+function closeContact() {
+    document.getElementById('contact-modal').classList.remove('active');
+}
+
+// Close popup when clicking on the dimmed background outside the card
+document.getElementById('contact-modal').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('contact-modal')) {
+        closeContact();
+    }
+});
