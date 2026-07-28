@@ -7,7 +7,7 @@ I learned HTML and CSS using youtube and W3 schools, which helped a lot.
 
 
  
-My website has 4 sections:
+My website has 4 sections: About, Skills, Projects, and Contact
 
 ## > About:
 This section focuses on some small facts about me, like my hobbies
@@ -18,5 +18,5 @@ This section showcases my skills, I just learned basic HTML, CSS, and JS for thi
 ## > Projects:
 This section is mainly focused on projects that I have completed for Stardance, but this will most likely expand to projects that I have completed before when I get more time.
 
-## > Get in Touch!!!:
+## > Contact:
 This has my email and instagram, and other contact info
