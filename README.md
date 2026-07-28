@@ -3,10 +3,10 @@ Hi, I'm Edward and welcome to my website. I'm a member of Hack Club.
 
 ## Visit my website at: https://seoedw.github.io/stardancewebsite/
 
-I learned HTML and CSS using youtube and W3 schools, which helped a lot.
+I learned HTML and CSS using Youtube and W3 Schools, which helped a lot.
 
+<img width="1680" height="749" alt="Screenshot 2026-07-28 at 4 41 10 PM" src="https://github.com/user-attachments/assets/94f6a00e-0f4d-4f93-8cef-8ce5bcff6bec" />
 
- 
 My website has 4 sections: About, Skills, Projects, and Contact
 
 ## > About:
